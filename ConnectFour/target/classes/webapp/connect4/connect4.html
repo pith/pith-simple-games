@@ -1,0 +1,37 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Connect Four</title> 
+        <link rel="stylesheet" href="../chat.css">
+        <link rel="stylesheet" href="connect4.css">
+        <script src="./javascript/game.js"></script>
+        <script src="./javascript/websocket.js"></script>
+        <script src="./javascript/chat.js"></script>
+    </head>
+    <body>
+    
+		 <header>
+			 <h1><a href="http://en.wikipedia.org/wiki/Connect_Four">Connect Four</a></h1>
+		 </header>
+    <div class="center">
+    <!-- Jeux -->
+    <section id="panelJeu">
+				<canvas  id="canvas" width="700" height="600">Connect Four is a two-player game in which the players first choose a color and then take turns dropping colored discs from the top into a seven-column, six-row vertically-suspended grid</canvas>
+			  <div id="plateau" ></div>
+			  <p id="message"></p>
+		</section>
+     
+     <!-- Chat -->
+     <section id="panelChat">
+      <div id='chat'></div>
+      <div id='input'>
+          <div id='joined'>
+              Chat:&nbsp;
+              <input id='username' type='text'/>
+              <input id='sendB' class='button' type='submit' name='Send' value='Send'/>
+          </div>
+      </div>
+    </section>
+		</div>
+    </body>
+</html>

@@ -1,4 +1,4 @@
-*ConnectFour
+#ConnectFour
 
 Old simple game to test websocket and canvas.
 
